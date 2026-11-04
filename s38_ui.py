@@ -14,7 +14,7 @@
 # =============================================================
 
 import streamlit as st
-name='Horia'
+
 st.set_page_config(page_title="Bounty Board", page_icon="🧩", layout="wide")
 
 pagina_lista = st.Page("s38_pages/lista.py", title="Task-uri", icon="📋", default=True)
