@@ -8,7 +8,7 @@
 import streamlit as st
 from comun import api
 
-st.title("📋 Task-uri")
+st.title("📋 Task-uri pentru Horia")
 
 ok, task_uri = api("GET", "/task-uri")
 if not ok:
